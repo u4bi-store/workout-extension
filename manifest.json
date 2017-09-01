@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Workout",
+  "description": "Workout Extension",
+  "version": "1.0.0",
+  
+  "background": {
+    "scripts": ["src/background/app.js"]
+  },
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "src/popup/index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
